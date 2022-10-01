@@ -25,7 +25,7 @@ const Projects = (props: Props) => {
             </h3>
             <div className='relative flex w-full overflow-x-scroll  overflow-y-hidden snap-x snap-mandatory z-20'>
                 {projects.map((item, index) => (
-                    <div className='w-screen flex-shrink-0 flex flex-col space-y-5 items-center justify-center snap-center p-20 h-screen md:p-40 md:pt-40'>
+                    <div key={index} className='w-screen flex-shrink-0 flex flex-col space-y-5 items-center justify-center snap-center p-20 h-screen md:p-40 md:pt-40'>
                         {/* <Image src={WebImg} className='' /> */}
                         <Monitor className='w-52 h-52 text-[#F7AB0A]' />
 

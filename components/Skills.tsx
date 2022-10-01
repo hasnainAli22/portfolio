@@ -46,8 +46,8 @@ const Skills = (props: Props) => {
                 Hover over the skill for current proficency.
             </h3>
             <div className="grid grid-cols-4 gap-5 mt-20">
-                {Icons.map(({direction, grip, Icon})=>(
-                    <Skill directionLeft={direction} grip={grip}>
+                {Icons.map(({direction, grip, Icon}, index)=>(
+                    <Skill directionLeft={direction} grip={grip} key={index}>
                         <Icon className={iconClasses} />
                     </Skill>
                 ))}

@@ -31,6 +31,7 @@ const About = (props: Props) => {
                     src={ProfilePic}
                     layout='fill'
                     className='object-cover md:rounded-lg rounded-full'
+                    alt='profile-pic'
 
 
                 />
