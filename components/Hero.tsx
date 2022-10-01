@@ -22,6 +22,7 @@ const Hero = (props: Props) => {
                 className="relative rounded-full h-32 w-32 mx-auto object-cover"
                 height={150}
                 width={150}
+                alt='profile-pic'
             />
             <div className="text-center z-20">
                 <h2 className='text-sm uppercase text-gray-500 py-2 tracking-[15px]'>

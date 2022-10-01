@@ -43,7 +43,7 @@ const ExperienceCard = (props: Props) => {
                 </div>
                 <p className='uppercase py-4 text-gray-300'>{`${props.start} - ${props.end}`}</p>
                 <ul className="list-disc space-y-4 ml-5 text-lg">
-                    {props.skills.map((item)=>(<li>{item}</li>))}
+                    {props.skills.map((item,index)=>(<li key={index}>{item}</li>))}
                 </ul>
             </div>
         </article>
